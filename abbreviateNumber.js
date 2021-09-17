@@ -1,3 +1,7 @@
+/**
+ * @author 5antos#4876
+/**
+
 function abbreviateNumber(number, precision=2) {
   const suffsFromZeros = { 0:'', 3:'k', 6:'M', 9:'G', 12:'T' }
   const { length } = number.toString()
