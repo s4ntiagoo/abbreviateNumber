@@ -1,6 +1,7 @@
 /**
- * @author 5antos#4876
-/**
+ * @author 5antos#4876 @5antos
+ * @returns {string} Abbreviated number
+ */
 
 function abbreviateNumber(number, precision=2) {
   const suffsFromZeros = { 0:'', 3:'k', 6:'M', 9:'G', 12:'T' }
